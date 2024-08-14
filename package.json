@@ -8,12 +8,13 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test" : "vitest --no-watch",
+    "test": "vitest --no-watch",
     "ci:test": "vitest --no-watch && start-server-and-test dev http-get://0.0.0.0:5173 e2e"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-h5-audio-player": "^3.9.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
