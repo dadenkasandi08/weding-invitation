@@ -1,0 +1,161 @@
+.invitation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #F2D1C6; /* Background color similar to the image */
+  margin: -10px;
+}
+
+.invitation-section_one {
+  width: 430px;
+  height: 764px;
+  background-image: url("./section-one.gif");
+  background-size: contain;
+  background-position: cover;
+  margin: 0px; /* Extends the header/footer to the edge */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  margin-top: 100px;
+}
+
+.header h1 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  color: #ffffff; /* White color for text */
+  margin-left: 64px;
+  margin-right: 64px;
+  text-align: center;
+}
+
+
+.header_kepada p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 12px;
+  color: #ffffff; /* White color for text */
+  margin-left: 64px;
+  margin-right: 64px;
+  text-align: center;
+}
+
+.header_caption p {
+  
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+  font-size: 10px;
+  color: #ffffff; /* White color for text */
+  margin-left: 64px;
+  margin-right: 64px;
+  text-align: center;
+}
+
+.names {
+  width: 300px;
+  height: 300px;
+  background-image: url("./test.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-content: center;
+  margin-top: 32px;
+}
+
+.names p {
+  font-size: 36px;
+  color: #ffffff; /* White color for names */
+  font-family: "Yellowtail", cursive;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+}
+
+
+.invitation-section_two {
+  width: 430px;
+  height: 764px;
+  background-image: url("./section-two.gif");
+  background-size: contain;
+  background-position: cover;
+  margin: 0px; /* Extends the header/footer to the edge */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.invitation-section_two-bismillah{
+  width: 256px;
+  height: 60px;
+  background-image: url("./bismillah.png");
+  background-size: contain;
+  background-position: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.invitation-section_two-text p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 12px;
+  margin-left: 48px;
+  margin-right: 48px;
+  text-align: center;
+}
+
+.invitation-section_two-mempelai-pria img{
+  margin-top: 5px;
+  height: 90px;
+  width: 90px;
+}
+
+.nama-mempelai p{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.status-mempelai p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-left: 48px;
+  margin-right: 48px;
+  text-align: center;
+}
+
+.invitation-section_two-and img{
+  height: 60px;
+  width: 60px;
+}
+.invitation-section_three {
+  width: 430px;
+  height: 764px;
+  background-image: url("./section-three.gif");
+  background-size: contain;
+  background-position: cover;
+  margin: 0px; /* Extends the header/footer to the edge */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
