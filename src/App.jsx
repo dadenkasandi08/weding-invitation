@@ -1,5 +1,5 @@
 import React from "react";
-import InvitationSectionOne from "./components/invitationSectionOne";
+import InvitationSectionOne from "./components/InvitationSectionOne";
 import InvitationSectionTwo from "./components/InvitationSectionTwo";
 import InvitationSectionThree from "./components/InvitationSectionThree";
 
